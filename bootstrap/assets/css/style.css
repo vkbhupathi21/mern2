@@ -1,0 +1,145 @@
+body {
+    background-color: whitesmoke;
+}
+
+#logo {
+    border-radius: 50%;
+    background-color: white;
+    width: 52px;
+    font-family: 'Poppins-SemiBold', sans-serif;
+    color: red;
+    text-align: center;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.btn-outline-success {
+    border-color: white !important;
+}
+
+.nav-item>a {
+    color: white !important;
+}
+
+@media screen {}
+
+#mainHed {
+    width: 100%;
+    height: 51px;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.cardHead {
+    /* position: relative; */
+    margin: -17px 0 0px 29px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.cardSubHead {
+    position: relative;
+    margin: 0px 0 0px 29px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.cardDesc {
+    position: relative;
+    margin: 10px 0 0px 29px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.Path-6195 {
+    width: 603.4px;
+    height: 0;
+    margin: -4px 0px 15px 25px;
+    border: solid 1px #dedfe5;
+}
+
+.inCard {
+    margin-left: -55px;
+    font-weight: 600;
+}
+
+p {
+    color: #192f60;
+}
+
+@media (max-width:360px) {
+    #mainHed {
+        font-size: 28px;
+        line-height: 1;
+    }
+    .cardHead {
+        margin: 19px 0px 0px 0px;
+    }
+}
+
+.filters {
+    color: #192f60;
+}
+
+.filters>h3 {
+    font-family: Poppins;
+    font-size: 18px !important;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin-bottom: 3% !important;
+}
+
+.filters>form>h4 {
+    font-family: Poppins;
+    font-size: 14px !important;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin: 2% 0% 2% 0%;
+}
+
+.filters>form>.form-check {
+    margin-bottom: 0.5rem !important;
+}
+
+.img {
+    border-radius: 20px !important;
+    margin: 8% 3% 3% 13%;
+}

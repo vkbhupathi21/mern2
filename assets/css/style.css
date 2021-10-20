@@ -1,0 +1,313 @@
+body {
+    font-family: 'Poppins';
+    background-color: #fbfbfb;
+}
+
+/* css for index */
+#divAsg1{
+    padding: 0% 0% 0% 1%;
+    box-shadow: -2px -1px 16px 1px #8c96ab;
+    align-content: center;
+    width: 80%;
+    background-color: #e3e5e947;
+}
+#indexBody{
+    width: 80%;
+    margin: 5% 0% 0% 15%;
+}
+#divCSS{
+    display:inline-block;
+    padding: 5px;
+    width:45%;
+    box-shadow: inset -2px -1px 16px 1px #8c96ab;
+    float: right;
+}
+
+#divCSS > h3{
+    text-align: center;
+}
+
+#divBS{
+    display:inline-block;
+    padding: 5px;
+    width:45%;
+    box-shadow: inset -2px -1px 16px 1px #8c96ab;
+    float:left;
+}
+
+#divBS > h3{
+    text-align: center;
+}
+/* end of css for index */
+
+#menuBar {
+    position: sticky;
+    top: 0px;
+    background-color: #ce0505;
+    color: white;
+    height: 80px;
+    width: 100%;
+    z-index: 999;
+}
+
+#menuBar div {
+    position: absolute;
+}
+
+#logo {
+    border-radius: 50%;
+    width: 5%;
+    height: 86%;
+    background-color: white;
+    left: 3%;
+    top: 7%;
+}
+
+#logo>span {
+    position: absolute;
+    color: #ce0505;
+    font-size: 33px;
+    top: 14%;
+    left: 31%;
+}
+
+#login {
+    top: 29%;
+    left: 80%;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+#signUp {
+    top: 22%;
+    left: 85%;
+    line-height: 25px;
+    font-size: 16px;
+    border-radius: 3%;
+    border: 1px solid white;
+    padding: 6px;
+}
+
+#mainBody {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    margin-bottom: 50px;
+}
+
+#mainBody>p {
+    position: absolute;
+    display: inline-block;
+    left: 6%;
+    line-height: 55px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #192f60;
+}
+
+#sideBar {
+    position: absolute;
+    width: 20%;
+    height: fit-content;
+    background-color: white;
+    border-radius: 1%;
+    border: 1px solid white;
+    top: 20%;
+    left: 6%;
+    padding: 1.5%;
+    color: #192f60;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+#sideHead {
+    line-height: 27px;
+    font-size: 18px;
+}
+
+form>label {
+    display: block;
+    line-height: 21px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5% 0 5% 0;
+}
+
+form>select {
+    margin: 0 2% 2% 2%;
+    padding: 0.5%;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+    background-color: #fff;
+    font-size: 18px;
+    border-radius: 6%;
+}
+
+form>p {
+    margin: 0 0 4% -1%;
+    line-height: 21px;
+    font-size: 14px;
+    position: relative;
+}
+
+form>p>span {
+    position: absolute;
+    top: 0%;
+    padding: 0 0 0 2%;
+}
+
+
+/* #rsltCard{
+    position:relative;
+} */
+
+.card {
+    position: absolute;
+    width: 60%;
+    height: 200px;
+    background-color: white;
+    border-radius: 1%;
+    border: 1px solid white;
+    top: 20%;
+    left: 32%;
+    padding: 1.5%;
+    color: #192f60;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.card>img,
+.card2>img {
+    width: 20%;
+    height: 52%;
+    border-radius: 10%;
+    display: inline-block;
+    margin-bottom: 2%;
+}
+
+.card2 {
+    position: absolute;
+    width: 60%;
+    height: 200px;
+    background-color: white;
+    border-radius: 1%;
+    border: 1px solid white;
+    top: 70%;
+    left: 32%;
+    padding: 1.5%;
+    color: #192f60;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.card>h3,
+.card2>h3 {
+    display: inline-block;
+    position: absolute;
+    line-height: 46px;
+    font-size: 30px;
+    top: 0%;
+    left: 28%;
+}
+
+.card>h4,
+.card2>h4 {
+    display: inline-block;
+    position: absolute;
+    line-height: 30px;
+    font-size: 16px;
+    top: 22%;
+    left: 28%;
+}
+
+.cardDesc {
+    display: inline-block;
+    position: absolute;
+    line-height: 30px;
+    font-size: 16px;
+    color: #636f88;
+    top: 33%;
+    left: 28%;
+    margin: 3% 0 3% 0;
+}
+
+.cardCus {
+    display: inline-block;
+    position: absolute;
+    line-height: 30px;
+    font-size: 16px;
+    color: #636f88;
+    top: 64%;
+    left: 3%;
+}
+
+.cardCus>span {
+    display: inline-block;
+    position: absolute;
+    line-height: 30px;
+    font-size: 16px;
+    color: #192f60;
+    top: 1%;
+    left: 250%;
+}
+
+.cardCost {
+    display: inline-block;
+    position: absolute;
+    line-height: 30px;
+    font-size: 16px;
+    color: #636f88;
+    top: 77%;
+    left: 3%;
+}
+
+.cardCost>span {
+    display: inline-block;
+    position: absolute;
+    line-height: 30px;
+    font-size: 16px;
+    color: #192f60;
+    top: 1%;
+    left: 143%;
+    width: 50%;
+}
+
+#pages {
+    position: absolute;
+    display: inline-block;
+    top: 113%;
+    left: 51%;
+}
+
+.pBox {
+    position: relative;
+    top: 775px;
+    left: 635px;
+    display: inline-block;
+    height: 2%;
+    width: 2%;
+    border-radius: 5%;
+    border: 1px solid teal;
+    /* top:80%; */
+    padding: 1%;
+    line-height: 15px;
+    text-align: center;
+}
+
+.pBoxSelect {
+    background-color: #8c96ab;
+}
+
+.noRslt {
+    position: absolute;
+    left: 35%;
+    top: 28%;
+    line-height: 46px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#spacer {
+    position: absolute;
+    left: 10%;
+    top: 132%;
+    height: 20px;
+    width: 20px;
+}
